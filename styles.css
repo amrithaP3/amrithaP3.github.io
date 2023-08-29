@@ -1,0 +1,97 @@
+body{
+    background-color: #8b9eff;
+    border:#483d8b;
+    border-style: dotted;
+    border-width: 5px;
+    height: 755px;
+}
+
+.fade {
+    font-family: palatino, serif;
+    font-size: 70px;
+    margin-top: 60px;
+    margin-bottom: auto;
+    text-align: center;
+    font-weight: bold;
+    color: #483d8b;
+    text-shadow: 2px 2px #98fb98;
+    font-style: italic; 
+    animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  .shape {
+    background-color: #87e7bc;
+    height: 425px;
+    width: 670px;
+    border-color: #483d8b;
+    border-style: dashed;
+    border-width: 8px;
+    border-radius: 5%;
+    margin-top: -440px;
+    margin-left: 80px;
+    margin-bottom: -20px;
+  }
+
+  .infoCard {
+    font-family: monaco;
+    margin-top: 70px;
+    text-align: left;
+    width: 45%;
+    margin-left: 110px;
+    font-size: 21px;
+    color:#483d8b;
+    margin-bottom: -20px;
+  }
+
+  .float-img {
+    float:left;
+    margin-left: 780px;
+    margin-top: -390px;
+    width: 365px;
+    height: 380px;
+    margin-bottom: 50px;
+    border-radius: 80%;
+    border-style:solid;
+    border-color:aquamarine;
+    box-shadow: 8px 10px;
+    border-width: 5px;
+  }
+
+  .float-gif {
+    float:left;
+    margin-left: 700px;
+    margin-top: -480px;
+    width: 95px;
+    height: 95px;
+    margin-bottom: 50px;
+  }
+
+  .float-gif2 {
+    float:left;
+    margin-left: 1150px;
+    margin-top: -120px;
+    width: 95px;
+    height: 95px;
+    margin-bottom: 50px;
+  }
+
+  .colorChange {
+    margin-left: 300px;
+    margin-top: -80px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #9370db;
+    border-radius: 4px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monaco, serif;
+    color:#87e7bc;
+    background-color:#483d8b;
+    border-color:#87e7bc;
+    margin-top: -50px;
+    margin-bottom: 60px;
+  }
